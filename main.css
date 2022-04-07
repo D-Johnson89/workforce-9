@@ -1,0 +1,44 @@
+body {
+	background-color: black;
+}
+
+.link {
+	color: limegreen;
+	list-style: none;
+}
+
+.link:visited {
+	color: limegreen;
+}
+
+.link li {
+	display: inline-block;
+}
+
+/*.link li a:hover {
+	transition: all 0.3s ease 0s;
+	color: purple;
+}*/
+
+button {
+	margin-right: 25px;
+	height: 30px;
+	background-color: rgba(35, 84, 245, 1);
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: rgba(35, 84, 245, 0.8);
+}
+
+.slide-img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	object-fit: cover;
+	/*display: none;*/
+	opacity: 0;
+	transition: opacity 1s ease-in-out;
+}
