@@ -2,17 +2,42 @@ body {
 	background-color: black;
 }
 
-.link {
-	color: limegreen;
-	list-style: none;
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+	margin-bottom: 100px;
 }
 
-.link:visited {
+.btn {
+	background-color: rgba(0, 0, 255, 1);
 	color: limegreen;
+	padding: 7px 15px;
+	text-decoration: none;
+	border-radius: 5px;
+	border-color: grey;
+	border-style: groove;
+}
+
+.btn:hover {
+	background-color: rgba(0, 0, 255, 0.8);
 }
 
 .link li {
 	display: inline-block;
+	margin-right: 10px;
+}
+
+.logo2 {
+	cursor: pointer;
+	width: 150px;
+	height: auto;
+	border-radius: 5px;
+	border-color: grey;
+	border-width: 5px;
+	border-style: groove;
+	box-shadow: 5px 5px 10px grey;
 }
 
 /*.link li a:hover {
@@ -21,11 +46,6 @@ body {
 }*/
 
 button {
-	margin-right: 25px;
-	height: 30px;
-	background-color: rgba(35, 84, 245, 1);
-	border-radius: 5px;
-	cursor: pointer;
 }
 
 button:hover {
