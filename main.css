@@ -45,9 +45,6 @@ header {
 	color: purple;
 }*/
 
-button {
-}
-
 button:hover {
 	background-color: rgba(35, 84, 245, 0.8);
 }
