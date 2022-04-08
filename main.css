@@ -40,15 +40,6 @@ header {
 	box-shadow: 5px 5px 10px grey;
 }
 
-/*.link li a:hover {
-	transition: all 0.3s ease 0s;
-	color: purple;
-}*/
-
-button:hover {
-	background-color: rgba(35, 84, 245, 0.8);
-}
-
 .slide-img {
 	position: absolute;
 	top: 0;
