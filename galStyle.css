@@ -5,10 +5,11 @@ img {
 }
 
 .gallery {
+	padding-bottom: 20px;
 	justify-content: center;
 	display: grid;
 	grid-template-columns: 25% 25% 25% 25%;
-	grid-teplate-rows: 250px;
+	grid-template-rows: 250px;
 }
 
 .slider {
